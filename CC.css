@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root{
+    --discord: #7289da;
+    --Discord-bg: #36393F;
+    --Discord-main: #1f2024;
+    --Discord-hover: #2c2e33;
+}
+
+h1, h2,h3{
+    font-weight: 600;
+}
+
+.container {
+    background-color: var(--Discord-bg);
+    min-height: 576px;
+    width: 720px;
+    margin: 0 auto;
+    border-radius: 7px;
+    display: grid;
+    grid-template-columns: 1.3fr 2fr;
+    position: relative;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.nav-left .acc-info,
+.nav-left .search,
+.nav-left .catagory{
+    padding: 0.7rem;
+}
+
+.nav-left .acc-info {
+    
+    font-size: 1rem;
+    line-height: 0.1;
+    display: flex;
+}
+
+.nav-left .acc-info img {
+ width: 70px;
+ height: 70px;
+ border-radius: 50%;
+ margin-right:10px ;
+}
+
+.nav-left .acc-info .infor h2 {
+font-size: 1.2rem;
+}
+.nav-left .acc-info .infor p, 
+.nav-left .acc-info .infor span {
+    font-size: 0.7rem;
+    opacity: 0.7;
+}
+
+.nav-left .acc-info .infor span:hover{
+    cursor: pointer;
+}
+
+.nav-left .search input[type="text"]{
+    width: 97%;
+    background-color: inherit;
+    outline: none;
+    border: none;
+    border-bottom: white solid 2px;
+    color: white;
+}
+.nav-left .catagory ul,
+.main .wrapper .task-list ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.nav-left .catagory ul li{
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav-left .catagory ul li:hover{
+    background-color: var(--Discord-hover);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.nav-left .catagory ul li span{
+    margin: 0 20px 0 0;
+    
+}
+
+
+.nav-left .add-new-catagory{
+    position: absolute;
+    bottom: 0;
+    
+}
+
+
+.nav-left .add-new-catagory a{
+    display: block;
+  width: 100%;
+  border: none;
+  padding: 7px 60px 7px 0.7rem;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.nav-left .add-new-catagory a span{
+    margin: 0 20px 0 0;
+}
+
+.main {
+    background-color: var(--Discord-main);
+    border-radius: 7px 0 7px 0;
+    position:relative;
+}
+
+.main .wrapper{
+    padding: 30px;
+}
+
+.main  .wrapper .task-title h3{
+    display: flex;
+    align-items: center;   
+} 
+
+.main  .wrapper .task-title h3 span{
+    margin: 0 20px 0 0;  
+} 
+
+.main .wrapper .task-list ul{
+    margin-top: 25px;
+}
+
+.main .wrapper .task-list ul li{
+    padding: 10px 10px;
+    margin-bottom: 2px;
+    background-color: var(--Discord-bg);
+    font-size: 0.9rem;
+    border-radius: 4px;
+}
+
+.main .wrapper .task-list ul li .task{
+    display: flex;
+}
+
+.main .wrapper .task-list ul li .des{
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.6;
+    font-size: 0.6rem;
+}
+
+#add-new{
+    width: 82%;
+ display: flex;
+ align-items: center;
+ position:absolute;
+ bottom: 0;
+ margin-bottom: 10px;
+}
+
+#add-new{
+    padding: 10px 10px;
+
+    background-color: var(--Discord-bg);
+    font-size: 0.9rem;
+    border-radius: 4px;
+}
+
+
+#add-new span{
+    margin-right: 15px;
+}
+
+#add-new input[type="text"]{
+    width: 230px;
+    background-color: inherit;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.catagory ul li input{
+    background-color: inherit;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 0.9rem;
+    margin-left: 0;
+}
+
+.space{
+    width: 10%;
+    margin-left: auto;
+    border-radius: 50%;
+    text-align:center ;
+    background-color: brown;
+}

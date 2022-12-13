@@ -1,0 +1,22 @@
+[
+    {
+        "logo" : "home",
+        "name" : "All Tasks",
+        "noti" : "2"
+     },
+     {
+         "logo" : "star",
+         "name" : "Important Tasks",
+         "noti" : "1"
+     },
+     {
+         "logo" : "school",
+         "name" : "Daily Tasks",
+         "noti" : "3"
+      },
+      {
+         "logo" : "calendar_today",
+         "name" : "Monthly Tasks",
+         "noti" : "1"
+      }
+ ]
